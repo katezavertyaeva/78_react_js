@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 import "./styles.css";
 
-function Counter({count = 1, onMinusClick, onPlusClick}) {
+function Counter({count, onMinusClick, onPlusClick}) {
   return (
     <div className="counter-wrapper">
       <div className="button-wrapper">
